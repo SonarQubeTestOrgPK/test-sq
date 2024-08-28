@@ -5,6 +5,9 @@ public class Matrix3D {
   private int depth;
   private int rows;
   private int cols;
+  private String notUsedA;
+  private String notUsedB;
+  String notUsedC;
 
   public Matrix3D(int depth, int rows, int cols) {
     this.depth = depth;
