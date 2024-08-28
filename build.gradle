@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id "org.sonarqube" version "4.4.1.3373"
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+sonar {
+    properties {
+        property "sonar.projectKey", "default-organization_test"
+        property "sonar.organization", "default-organization"
+        property "sonar.host.url", "https://kupinski.eu.ngrok.io"
+        property "sonar.plugins.origin", "local"
+    }
+}
