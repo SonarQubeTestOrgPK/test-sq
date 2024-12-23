@@ -10,6 +10,7 @@ public class StringOperations3 {
         System.out.println("Reversed: " + reversed);
         System.out.println("Uppercased: " + uppercased);
         System.out.println("Lowercased: " + lowercased);
+        System.out.println("Eeeeeeeee: " + lowercased);
     }
 
     public static String reverseString(String str) {
