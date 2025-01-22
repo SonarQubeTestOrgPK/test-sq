@@ -5,12 +5,12 @@ public class StringOperations3 {
         String input = "Hello World";
         String reversed = reverseString(input);
         String uppercased = toUpperCase(input);
+        String uppercased2 = toUpperCase(input);
         String lowercased = toLowerCase(input);
 
         System.out.println("Reversed: " + reversed);
-        System.out.println("Uppercased: " + uppercased);
-        System.out.println("Lowercased: " + lowercased);
-        System.out.println("Eeeeeeeeeefdsfdsds: " + lowercased);
+        System.err.println("Eeeeeeeeeefds: " + lowercased);
+
     }
 
     public static String reverseString(String str) {
