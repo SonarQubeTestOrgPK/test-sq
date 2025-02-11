@@ -10,6 +10,8 @@ public class StringOperations3 {
 
         System.out.println("Reversed: " + reversed);
         System.err.println("Eeeeeeeeeefds: " + lowercased);
+        System.err.println("EEEEEEEEE: " + lowercased);
+
 
     }
 
