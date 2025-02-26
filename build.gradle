@@ -24,8 +24,8 @@ sonar {
         property "sonar.projectKey", "SonarQubeTestOrgPK_test-sq"
         property "sonar.organization", "sonarqubetestorgpk"
         property "sonar.host.url", "https://us.sonarcloud.io"
-        property "sonar.pullrequest.branch", "pr-branch-2"
-        property "sonar.pullrequest.key", "9"
+        property "sonar.pullrequest.branch", "pr-branch-3"
+        property "sonar.pullrequest.key", "10"
     }
 }
 
