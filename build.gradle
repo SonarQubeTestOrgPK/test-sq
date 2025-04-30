@@ -21,18 +21,12 @@ test {
 
 sonar {
     properties {
+        property "sonar.token", "b70d681c748214ca50bc87bbbb4df07fa259b098"
         property "sonar.projectKey", "SonarQubeTestOrgPK_test-sq"
         property "sonar.organization", "sonarqubetestorgpk"
-        property "sonar.host.url", "https://us.sonarcloud.io"
-        property "sonar.pullrequest.branch", "pr-branch-4"
+        property "sonar.host.url", "https://dev1us1.us-sc-dev1.io"
+        property "sonar.region", "US"
+        property "sonar.pullrequest.branch", "feature/pr-branch-4"
         property "sonar.pullrequest.key", "11"
     }
 }
-
-//sonar-scanner \
-//  -Dsonar.organization=sonarqubetestorgpk \
-//  -Dsonar.projectKey=SonarQubeTestOrgPK_test-sq \
-//  -Dsonar.sources=. \
-//  -Dsonar.host.url=https://us.sonarcloud.io \
-//  -Dsonar.pullrequest.branch=pr-branch-2 \
-//  -Dsonar.pullrequest.key=9
