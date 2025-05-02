@@ -30,4 +30,3 @@ sonar {
         property "sonar.pullrequest.key", "11"
     }
 }
-
