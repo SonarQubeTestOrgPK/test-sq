@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id "org.sonarqube" version "5.0.0.4638"
+    id "org.sonarqube" version "6.0.1.5171"
 }
 
 group = 'org.example'
@@ -21,10 +21,13 @@ test {
 
 sonar {
     properties {
-        property "sonar.projectKey", "SonarQubeTestOrgPK_test-sq_85b45028-f6d1-42df-a346-95e272b6326e"
-        property "sonar.projectName", "test-sq"
-        property "sonar.organization", "default-organization"
-        property "sonar.host.url", "https://kupinski.eu.ngrok.io"
-        // property "sonar.plugins.origin", "local"
+        property "sonar.token", "e7d65f58d8ffd9438716cb571601c1ab7d5bdfd9"
+        property "sonar.projectKey", "SonarQubeTestOrgPK_test-sq"
+        property "sonar.organization", "sonarqubetestorgpk"
+        property "sonar.host.url", "https://dev6.sc-dev6.io"
+        property "sonar.branch", "main"
+//        property "sonar.region", "US"
+//        property "sonar.pullrequest.branch", "feature/pr-branch-4"
+//        property "sonar.pullrequest.key", "11"
     }
 }

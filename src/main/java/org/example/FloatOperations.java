@@ -41,9 +41,11 @@ public class FloatOperations {
         float product = multiply(num1, num2);
         float quotient = divide(num1, num2);
 
-        System.out.println("Sum: " + sum + ", Casted to int: " + castToInt(sum));
+        System.out.println("Sum: " + sum + ", Casted to intggfd d: " + castToInt(sum));
         System.out.println("Difference: " + difference + ", Casted to int: " + castToInt(difference));
         System.out.println("Product: " + product + ", Casted to int: " + castToInt(product));
+        System.out.println("Quotient: " + quotient + ", Casted to int: " + castToInt(quotient));
+        System.out.println("Quotient: " + quotient + ", Casted to int: " + castToInt(quotient));
         System.out.println("Quotient: " + quotient + ", Casted to int: " + castToInt(quotient));
     }
 }
