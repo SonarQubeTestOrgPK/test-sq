@@ -26,7 +26,9 @@ sonar {
         property "sonar.organization", "sonarqubetestorgpk"
         property "sonar.host.url", "https://dev6.sc-dev6.io"
         property "sonar.branch", "main"
-        
+
+        //
+
 //        property "sonar.pullrequest.branch", "feature/pr-branch-4"
 //        property "sonar.pullrequest.key", "11"
     }
