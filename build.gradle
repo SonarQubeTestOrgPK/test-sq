@@ -29,6 +29,8 @@ sonar {
 
         //
 
+
+
 //        property "sonar.pullrequest.branch", "feature/pr-branch-4"
 //        property "sonar.pullrequest.key", "11"
     }
