@@ -21,7 +21,7 @@ public class StringOperations4 {
     }
 
     public static String toUpperCase(String str) {
-        String uppercased = "";
+        String uppercased = "KURA";
         for (int i = 0; i < str.length(); i++) {
             uppercased += Character.toUpperCase(str.charAt(i));
         }
