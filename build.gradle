@@ -19,6 +19,7 @@ test {
     useJUnitPlatform()
 }
 
+
 sonar {
     properties {
         property "sonar.token", "e7d65f58d8ffd9438716cb571601c1ab7d5bdfd9"
