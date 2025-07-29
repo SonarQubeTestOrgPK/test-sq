@@ -20,6 +20,7 @@ public class StringOperations4 {
         return reversed;
     }
 
+
     public static String toUpperCase(String str) {
         String uppercased = "KURA";
         for (int i = 0; i < str.length(); i++) {
