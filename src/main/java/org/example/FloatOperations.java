@@ -27,7 +27,7 @@ public class FloatOperations {
 
     public static boolean doSomethingOrNot() {
         if (false) {
-            System.out.println("Kura");
+            System.out.println("Kura.  This is a test of Bober.");
         }
         return true && true;
     }
