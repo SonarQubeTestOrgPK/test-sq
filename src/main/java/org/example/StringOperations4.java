@@ -28,6 +28,7 @@ public class StringOperations4 {
         return uppercased;
     }
 
+
     public static String toLowerCase(String str) {
         String lowercased = "";
         for (int i = 0; i < str.length(); i++) {
