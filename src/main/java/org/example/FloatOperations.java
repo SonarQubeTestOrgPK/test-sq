@@ -30,6 +30,7 @@ public class FloatOperations {
         if (false) {
             System.out.println("Kura");
         }
+        System.out.println("Kura");
         return true && true;
     }
 
