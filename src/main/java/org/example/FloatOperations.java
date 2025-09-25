@@ -21,6 +21,7 @@ public class FloatOperations {
         return a / b;
     }
 
+
     public static int castToInt(float value) {
         return (int) value;
     }
@@ -29,6 +30,7 @@ public class FloatOperations {
         if (false) {
             System.out.println("Kura");
         }
+        System.out.println("Kura");
         return true && true;
     }
 
